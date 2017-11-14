@@ -5,11 +5,13 @@ Created on Mon Nov 13 23:18:19 2017
 @author: Daniel Lukic
 """
 
-import sys
-sys.path.append('/home/daniel/Dropbox/UNI - Kopie/Bach/xor')
+import numpy as np
+import os
+
+os.path.realpath(__file__)
+
 import training as train
 import plt_error as plt_err
-import numpy as np
 
 # Define maximal epochs for training
 maxEpochs = 500
